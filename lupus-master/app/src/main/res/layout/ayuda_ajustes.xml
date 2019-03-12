@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMain">
+
+    <Button
+        android:id="@+id/ayuda_button5"
+        android:layout_width="91dp"
+        android:layout_height="43dp"
+        android:text="Ayuda"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="21dp"/>
+
+    <Button
+        android:id="@+id/resultados_button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultados"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <Button
+        android:id="@+id/anadir_diario_button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Añadir diario"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayuda"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="100dp"/>
+
+    <Button
+        android:id="@+id/home_button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio"
+        app:layout_constraintEnd_toStartOf="@+id/anadir_diario_button3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="187dp"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="217dp"/>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sobre tí"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="275dp"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opciones de seguimiento"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="355dp"/>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Recordatorios"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="422dp"/>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajustes"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="488dp"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Políticas y privacidad"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="569dp"/>
+</android.support.constraint.ConstraintLayout>

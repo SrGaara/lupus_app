@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             android:background="@color/colorMain"
+                                             tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="82dp"
+        android:layout_height="51dp"
+        android:text="Inicio"
+        app:layout_constraintEnd_toStartOf="@+id/anadir_diario_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <Button
+        android:id="@+id/anadir_diario_button"
+        android:layout_width="89dp"
+        android:layout_height="53dp"
+        android:text="Análisis diario"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="195dp"/>
+
+    <Button
+        android:id="@+id/Resultados_button"
+        android:layout_width="112dp"
+        android:layout_height="53dp"
+        android:text="Resultados"
+        app:layout_constraintEnd_toStartOf="@+id/ayuda_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/home_button"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <Button
+        android:id="@+id/ayuda_button"
+        android:layout_width="94dp"
+        android:layout_height="52dp"
+        android:text="Ayuda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/Resultados_button"
+        tools:layout_editor_absoluteY="17dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="80dp"
+        android:layout_height="24dp"
+        android:text="Bienvenida"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="80dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu calendario es el siguiente:"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="123dp"/>
+
+    <ScrollView
+        android:layout_width="396dp"
+        android:layout_height="382dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="341dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mes"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="315dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="76dp"
+        android:layout_height="96dp"
+        app:srcCompat="@drawable/searchmagnifierinterfacesymbol_79894"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="152dp"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Día"
+        tools:layout_editor_absoluteX="290dp"
+        tools:layout_editor_absoluteY="185dp"/>
+
+</android.support.constraint.ConstraintLayout>

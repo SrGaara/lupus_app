@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMain">
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="115dp"
+        android:layout_height="111dp"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="562dp"
+        tools:srcCompat="@tools:sample/avatars[1]"/>
+
+    <Button
+        android:id="@+id/home_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio"
+        app:layout_constraintEnd_toStartOf="@+id/anadir_diario_button2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <Button
+        android:id="@+id/anadir_diario_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Añadir diario"
+        app:layout_constraintEnd_toStartOf="@+id/resultados_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/home_button2"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <Button
+        android:id="@+id/resultados_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultados"
+        app:layout_constraintEnd_toStartOf="@+id/ayuda_button2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/anadir_diario_button2"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <Button
+        android:id="@+id/ayuda_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayuda"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/resultados_button"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <TextView
+        android:id="@+id/como_te_sientes_text"
+        android:layout_width="361dp"
+        android:layout_height="27dp"
+        android:text="¿Como te sientes?"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="84dp"/>
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="320dp"
+        android:layout_height="137dp"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="127dp"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Cómo te sientes?"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="302dp"/>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="115dp"
+        android:layout_height="111dp"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="374dp"
+        tools:srcCompat="@tools:sample/avatars[1]"/>
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="114dp"
+        android:layout_height="122dp"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="374dp"
+        tools:srcCompat="@tools:sample/avatars[1]"/>
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="115dp"
+        android:layout_height="111dp"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="562dp"
+        tools:srcCompat="@tools:sample/avatars[1]"/>
+
+</android.support.constraint.ConstraintLayout>
