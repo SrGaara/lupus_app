@@ -11,95 +11,160 @@
         android:id="@+id/imageButton5"
         android:layout_width="115dp"
         android:layout_height="111dp"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="562dp"
-        tools:srcCompat="@tools:sample/avatars[1]"/>
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:layout_constraintVertical_bias="0.453"
+        tools:srcCompat="@tools:sample/avatars[1]" />
 
     <Button
         android:id="@+id/home_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:text="Inicio"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/anadir_diario_button2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="16dp"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
 
     <Button
         android:id="@+id/anadir_diario_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:text="Añadir diario"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/resultados_button"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/home_button2"
-        tools:layout_editor_absoluteY="16dp"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
 
     <Button
         android:id="@+id/resultados_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:text="Resultados"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ayuda_button2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/anadir_diario_button2"
-        tools:layout_editor_absoluteY="16dp"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
 
     <Button
         android:id="@+id/ayuda_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:text="Ayuda"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/resultados_button"
-        tools:layout_editor_absoluteY="16dp"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
 
     <TextView
         android:id="@+id/como_te_sientes_text"
         android:layout_width="361dp"
         android:layout_height="27dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:text="¿Como te sientes?"
-        tools:layout_editor_absoluteX="26dp"
-        tools:layout_editor_absoluteY="84dp"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107" />
 
     <CalendarView
         android:id="@+id/calendarView"
         android:layout_width="320dp"
         android:layout_height="137dp"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="127dp"/>
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/como_te_sientes_text"
+        app:layout_constraintVertical_bias="0.029" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:text="¿Cómo te sientes?"
-        tools:layout_editor_absoluteX="156dp"
-        tools:layout_editor_absoluteY="302dp"/>
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendarView"
+        app:layout_constraintVertical_bias="0.06" />
 
     <ImageButton
         android:id="@+id/imageButton2"
         android:layout_width="115dp"
         android:layout_height="111dp"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="374dp"
-        tools:srcCompat="@tools:sample/avatars[1]"/>
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605"
+        tools:srcCompat="@tools:sample/avatars[1]" />
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="114dp"
         android:layout_height="122dp"
-        tools:layout_editor_absoluteX="244dp"
-        tools:layout_editor_absoluteY="374dp"
-        tools:srcCompat="@tools:sample/avatars[1]"/>
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.617"
+        tools:srcCompat="@tools:sample/avatars[1]" />
 
     <ImageButton
         android:id="@+id/imageButton4"
         android:layout_width="115dp"
         android:layout_height="111dp"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="562dp"
-        tools:srcCompat="@tools:sample/avatars[1]"/>
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        tools:srcCompat="@tools:sample/avatars[1]" />
 
 </android.support.constraint.ConstraintLayout>
