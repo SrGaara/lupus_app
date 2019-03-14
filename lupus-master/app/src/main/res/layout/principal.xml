@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                                             xmlns:app="http://schemas.android.com/apk/res-auto"
-                                             xmlns:tools="http://schemas.android.com/tools"
-                                             android:layout_width="match_parent"
-                                             android:layout_height="match_parent"
-                                             android:background="@color/colorMain"
-                                             tools:context=".MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorMain"
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView16"
@@ -18,7 +18,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.692"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/outline_radio_button_unchecked_black_48"/>
+        app:srcCompat="@drawable/outline_radio_button_unchecked_black_48" />
 
     <ImageView
         android:id="@+id/imageView15"
@@ -31,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.307"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/outline_radio_button_unchecked_black_48"/>
+        app:srcCompat="@drawable/outline_radio_button_unchecked_black_48" />
 
     <Button
         android:id="@+id/home_button"
@@ -60,7 +60,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"/>
+        app:layout_constraintVertical_bias="0.023" />
 
     <Button
         android:id="@+id/Resultados_button"
@@ -104,7 +104,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView4"
@@ -120,7 +120,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.152"/>
+        app:layout_constraintVertical_bias="0.152" />
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -138,7 +138,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"/>
+            android:orientation="vertical" />
     </ScrollView>
 
     <TextView
@@ -155,7 +155,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/anadir_diario_button"
-        app:layout_constraintVertical_bias="0.836"/>
+        app:layout_constraintVertical_bias="0.836" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -171,7 +171,7 @@
         app:layout_constraintStart_toEndOf="@+id/anadir_diario_button"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.219"
-        app:srcCompat="@drawable/searchmagnifierinterfacesymbol_79894"/>
+        app:srcCompat="@drawable/searchmagnifierinterfacesymbol_79894" />
 
     <TextView
         android:id="@+id/textView9"
@@ -185,7 +185,7 @@
         app:layout_constraintHorizontal_bias="0.813"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.415"/>
+        app:layout_constraintVertical_bias="0.415" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -200,7 +200,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.718"
-        app:srcCompat="@drawable/arrow"/>
+        app:srcCompat="@drawable/arrow" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -216,7 +216,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/outline_radio_button_unchecked_black_48"/>
+        app:srcCompat="@drawable/outline_radio_button_unchecked_black_48" />
 
     <ImageView
         android:id="@+id/imageView11"
@@ -228,6 +228,6 @@
         app:layout_constraintStart_toStartOf="@+id/imageView9"
         app:layout_constraintTop_toTopOf="@+id/imageView9"
         app:layout_constraintVertical_bias="0.341"
-        app:srcCompat="@drawable/sharp_edit_black_48"/>
+        app:srcCompat="@drawable/sharp_edit_black_48" />
 
 </android.support.constraint.ConstraintLayout>
