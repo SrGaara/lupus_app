@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent myIntent2 = new Intent(v.getContext(), analisisDiario.class);
                 startActivityForResult(myIntent2, 0);
                 break;
-            case R.id.emergencia:
+            case R.id.ayuda_button:
                 Intent myIntent3 = new Intent(v.getContext(), ayudaAjustes.class);
                 startActivityForResult(myIntent3, 0);
                 break;

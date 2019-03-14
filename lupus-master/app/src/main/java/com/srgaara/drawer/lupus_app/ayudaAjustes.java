@@ -20,7 +20,7 @@ public class ayudaAjustes extends AppCompatActivity implements View.OnClickListe
                 Intent myIntent = new Intent(v.getContext(), MainActivity.class);
                 startActivityForResult(myIntent, 0);
                 break;
-            case R.id.aanadir_diario_button6:
+            case R.id.anadir_diario_button6:
                 Intent myIntent2 = new Intent(v.getContext(), analisisDiario.class);
                 startActivityForResult(myIntent2, 0);
                 break;
