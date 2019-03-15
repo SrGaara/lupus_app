@@ -5,134 +5,150 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorMain">
+    android:background="@color/anotherTextColor">
 
     <Button
-        android:onClick="ViewRHome"
-        android:id="@+id/home_button3"
+        android:id="@+id/home_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@color/primaryDarkColor"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
         android:text="Inicio"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/anadir_diario_button3"
+        app:layout_constraintEnd_toStartOf="@+id/anadir_diario_button2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011" />
-
-    <Button
-        android:onClick="ViewRAnalisis"
-        android:id="@+id/anadir_diario_button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="Análisis diario"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/resultados_button2"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/home_button3"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.01"/>
 
     <Button
-        android:onClick="ViewRResultados"
-        android:id="@+id/resultados_button2"
+        android:id="@+id/anadir_diario_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Resultados"
+        android:background="@color/primaryDarkColor"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="Análisis diario"
+        android:textAlignment="center"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/ayuda_button3"
+        app:layout_constraintEnd_toStartOf="@+id/resultados_button"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/anadir_diario_button3"
+        app:layout_constraintStart_toEndOf="@+id/home_button2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01" />
+        app:layout_constraintVertical_bias="0.011"/>
 
     <Button
-        android:onClick="ViewRAyuda"
-        android:id="@+id/ayuda_button3"
-        android:layout_width="86dp"
-        android:layout_height="48dp"
+        android:id="@+id/resultados_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@color/primaryLightColor"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:text="Resultados"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ayuda_button2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/anadir_diario_button2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011"/>
+
+    <Button
+        android:id="@+id/ayuda_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/primaryDarkColor"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
         android:text="Ayuda"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/resultados_button2"
+        app:layout_constraintStart_toEndOf="@+id/resultados_button"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01"/>
+        app:layout_constraintVertical_bias="0.011"/>
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="94dp"
-        android:layout_height="26dp"
+        android:layout_width="150dp"
+        android:layout_height="39dp"
         android:layout_marginStart="36dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="281dp"
         android:layout_marginBottom="8dp"
         android:text="Fecha actual:"
         android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.206"/>
+        app:layout_constraintVertical_bias="0.108"/>
 
     <Button
-        android:onClick="ViewRExportar"
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="330dp"
+        android:layout_height="45dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:onClick="ViewRExportar"
         android:text="Exportar"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.942"/>
+        app:layout_constraintVertical_bias="0.944"/>
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="64dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="108dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="Síntoma"
         android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView7"
-        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.059"/>
+        app:layout_constraintVertical_bias="0.06"/>
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:layout_height="33dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="76dp"
+        android:layout_marginEnd="72dp"
         android:layout_marginBottom="8dp"
         android:text="Resultado"
         android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3"
         app:layout_constraintVertical_bias="0.04"/>
 
     <Button
-        android:onClick="ViewRBSintoma"
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -140,6 +156,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:onClick="ViewRBSintoma"
         android:text="Buscar Síntoma"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -149,13 +166,13 @@
         app:layout_constraintVertical_bias="0.022"/>
 
     <Button
-        android:onClick="ViewRBResultado"
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="240dp"
         android:layout_marginEnd="8dp"
+        android:onClick="ViewRBResultado"
         android:text="Buscar Resultado"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.327"
@@ -197,26 +214,38 @@
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="25dp"
-        android:layout_marginBottom="43dp"
+        android:layout_marginStart="16dp"
         android:text="Fecha de consulta:"
         android:textColor="@color/colorPrimary"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        android:textSize="21sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/home_button3"/>
+        tools:layout_editor_absoluteY="135dp"/>
 
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="88dp"
-        android:layout_height="67dp"
-        android:layout_marginStart="217dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="45dp"
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="164dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.066"
         app:layout_constraintStart_toEndOf="@+id/textView18"
-        app:layout_constraintTop_toBottomOf="@+id/ayuda_button3"
-        app:srcCompat="@drawable/calendario"/>
+        app:layout_constraintTop_toBottomOf="@+id/resultados_button2"
+        app:layout_constraintVertical_bias="0.9"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha"
+        android:textColor="@color/primaryDarkColor"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="82dp"/>
 
 </android.support.constraint.ConstraintLayout>
