@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorMain">
+    android:background="@color/anotherTextColor">
 
     <Button
         android:id="@+id/home_button2"
@@ -19,7 +19,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011" />
+        app:layout_constraintVertical_bias="0.011"/>
 
     <Button
         android:id="@+id/anadir_diario_button2"
@@ -28,6 +28,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:text="Análisis diario"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/resultados_button"
         app:layout_constraintHorizontal_bias="0.5"
@@ -41,13 +42,15 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
         android:text="Resultados"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ayuda_button2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/anadir_diario_button2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011" />
+        app:layout_constraintVertical_bias="0.011"/>
 
     <Button
         android:id="@+id/ayuda_button2"
@@ -61,7 +64,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/resultados_button"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011" />
+        app:layout_constraintVertical_bias="0.011"/>
 
     <TextView
         android:id="@+id/como_te_sientes_text"
@@ -105,6 +108,7 @@
         android:layout_marginBottom="8dp"
         android:text="¿Qué es lo que sientes?"
         android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -127,13 +131,14 @@
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="263dp"
-        android:layout_height="21dp"
+        android:layout_width="260dp"
+        android:layout_height="33dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="Fecha"
         android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.28"
@@ -155,7 +160,7 @@
         app:layout_constraintStart_toEndOf="@+id/textView10"
         app:layout_constraintTop_toBottomOf="@+id/calendarView"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/baseline_today_black_18dp" />
+        app:srcCompat="@drawable/baseline_today_black_18dp"/>
 
     <ImageView
         android:id="@+id/imageView6"
@@ -171,7 +176,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10"
         app:layout_constraintVertical_bias="0.064"
-        app:srcCompat="@mipmap/baseline_arrow_back_ios_black_24" />
+        app:srcCompat="@mipmap/baseline_arrow_back_ios_black_24"/>
 
     <ImageView
         android:id="@+id/imageView7"
@@ -187,7 +192,7 @@
         app:layout_constraintStart_toEndOf="@+id/textView8"
         app:layout_constraintTop_toBottomOf="@+id/textView10"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@mipmap/baseline_arrow_forward_ios_black_24" />
+        app:srcCompat="@mipmap/baseline_arrow_forward_ios_black_24"/>
 
     <ImageButton
         android:id="@+id/imageButton2"
