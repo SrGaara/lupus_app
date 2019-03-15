@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".analisisDiario"></activity>
+        <activity android:name=".resultados"></activity>
+        <activity android:name=".ayudaAjustes"></activity>
     </application>
 
 </manifest>

@@ -8,6 +8,7 @@
     android:background="@color/colorMain">
 
     <Button
+        android:onClick="ViewRHome"
         android:id="@+id/home_button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,6 +23,7 @@
         app:layout_constraintVertical_bias="0.011" />
 
     <Button
+        android:onClick="ViewRAnalisis"
         android:id="@+id/anadir_diario_button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -36,6 +38,7 @@
         app:layout_constraintVertical_bias="0.01"/>
 
     <Button
+        android:onClick="ViewRResultados"
         android:id="@+id/resultados_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -50,6 +53,7 @@
         app:layout_constraintVertical_bias="0.01" />
 
     <Button
+        android:onClick="ViewRAyuda"
         android:id="@+id/ayuda_button3"
         android:layout_width="86dp"
         android:layout_height="48dp"
@@ -80,6 +84,7 @@
         app:layout_constraintVertical_bias="0.206"/>
 
     <Button
+        android:onClick="ViewRExportar"
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -127,6 +132,7 @@
         app:layout_constraintVertical_bias="0.04"/>
 
     <Button
+        android:onClick="ViewRBSintoma"
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -143,6 +149,7 @@
         app:layout_constraintVertical_bias="0.022"/>
 
     <Button
+        android:onClick="ViewRBResultado"
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

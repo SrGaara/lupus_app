@@ -1,37 +1,35 @@
 package com.srgaara.drawer.lupus_app;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class ayudaAjustes extends AppCompatActivity implements View.OnClickListener
+public class ayudaAjustes extends Activity
 {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ayuda_ajustes);
     }
-    @Override
-    public void onClick(View v)
+    public void ViewAHome(View view)
     {
-        switch (v.getId()) {
-            case R.id.home_button5:
-                Intent myIntent = new Intent(v.getContext(), MainActivity.class);
-                startActivityForResult(myIntent, 0);
-                break;
-            case R.id.anadir_diario_button6:
-                Intent myIntent2 = new Intent(v.getContext(), analisisDiario.class);
-                startActivityForResult(myIntent2, 0);
-                break;
-            case R.id.resultados_button4:
-                Intent myIntent3 = new Intent(v.getContext(), resultados.class);
-                startActivityForResult(myIntent3, 0);
-                break;
-            case R.id.ayuda_button5:
-                Intent myIntent4 = new Intent(v.getContext(), ayudaAjustes.class);
-                startActivityForResult(myIntent4, 0);
-                break;
-        }
+        Intent myIntent = new Intent(view.getContext(), MainActivity.class);
+        startActivityForResult(myIntent, 0);
+    }
+    public void ViewAAyuda(View view)
+    {
+        Intent myIntent = new Intent(view.getContext(), ayudaAjustes.class);
+        startActivityForResult(myIntent, 0);
+    }
+    public void ViewAAnalisis(View view)
+    {
+        Intent myIntent = new Intent(view.getContext(), analisisDiario.class);
+        startActivityForResult(myIntent, 0);
+    }
+    public void ViewAResultados(View view)
+    {
+        Intent myIntent = new Intent(view.getContext(), resultados.class);
+        startActivityForResult(myIntent, 0);
     }
 }
