@@ -68,7 +68,7 @@
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
         android:text="Resultados"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ayuda_button2"
         app:layout_constraintHorizontal_bias="0.5"
@@ -86,7 +86,7 @@
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
         android:text="Ayuda"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -169,7 +169,6 @@
         android:text="Opciones de seguimiento"
         app:layout_constraintBottom_toTopOf="@+id/button6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -178,12 +177,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="112dp"
         android:layout_marginEnd="163dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="28dp"
         android:background="@color/primaryDarkColor"
         android:text="Recordatorios"
         app:layout_constraintBottom_toTopOf="@+id/button7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -205,12 +203,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="112dp"
         android:layout_marginEnd="109dp"
-        android:layout_marginBottom="76dp"
+        android:layout_marginBottom="72dp"
         android:background="@color/primaryDarkColor"
         android:text="Políticas y Privacidad"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

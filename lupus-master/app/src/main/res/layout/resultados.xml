@@ -9,14 +9,14 @@
 
     <Button
         android:onClick="ViewRHome"
-        android:id="@+id/home_button3"
+        android:id="@+id/home_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:text="Inicio"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/anadir_diario_button3"
+        app:layout_constraintEnd_toStartOf="@+id/anadir_diario_button"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -24,21 +24,21 @@
 
     <Button
         android:onClick="ViewRAnalisis"
-        android:id="@+id/anadir_diario_button3"
+        android:id="@+id/anadir_diario_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:text="Análisis diario"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/resultados_button2"
+        app:layout_constraintEnd_toStartOf="@+id/resultados_button"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/home_button3"
+        app:layout_constraintStart_toEndOf="@+id/home_button"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.01"/>
 
     <Button
-        android:onClick="ViewRResultados"
+        android:onClick="Resultados_button"
         android:id="@+id/resultados_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -48,12 +48,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ayuda_button3"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/anadir_diario_button3"
+        app:layout_constraintStart_toEndOf="@+id/Resultados_button"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.01" />
 
     <Button
-        android:onClick="ViewRAyuda"
+        android:onClick="ayuda_button"
         android:id="@+id/ayuda_button3"
         android:layout_width="86dp"
         android:layout_height="48dp"
@@ -63,7 +63,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/resultados_button2"
+        app:layout_constraintStart_toEndOf="@+id/ayuda_button"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.01"/>
 
