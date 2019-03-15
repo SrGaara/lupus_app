@@ -10,7 +10,7 @@ public class ayudaAjustes extends Activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ayuda_ajustes);
+        setContentView(R.layout.ayuda_perfil);
     }
     public void ViewAHome(View view)
     {
