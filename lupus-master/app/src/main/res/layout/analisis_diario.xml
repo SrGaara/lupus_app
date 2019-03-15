@@ -5,32 +5,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/anotherTextColor">
+    android:background="@color/anotherTextColor"
+    >
 
     <Button
-        android:onClick="ViewADHome"
         android:id="@+id/home_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@color/primaryDarkColor"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
         android:text="Inicio"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/anadir_diario_button2"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011"/>
+        app:layout_constraintVertical_bias="0.01"/>
 
     <Button
-        android:onClick="ViewADAnalisis"
         android:id="@+id/anadir_diario_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@color/primaryLightColor"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
         android:text="Análisis diario"
-        android:textSize="10sp"
+        android:textAlignment="center"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/resultados_button"
         app:layout_constraintHorizontal_bias="0.5"
@@ -39,15 +46,16 @@
         app:layout_constraintVertical_bias="0.011"/>
 
     <Button
-        android:onClick="ViewADResultados"
         android:id="@+id/resultados_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:background="@color/colorPrimary"
+        android:background="@color/primaryDarkColor"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
         android:text="Resultados"
-        android:textSize="12sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ayuda_button2"
         app:layout_constraintHorizontal_bias="0.5"
@@ -56,13 +64,16 @@
         app:layout_constraintVertical_bias="0.011"/>
 
     <Button
-        android:onClick="ViewADAyuda"
         android:id="@+id/ayuda_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@color/primaryDarkColor"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
         android:text="Ayuda"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -78,8 +89,10 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@color/colorMain"
         android:text="¿Como te sientes?"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/primaryDarkColor"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.049"
@@ -95,6 +108,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@color/primaryLightColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
@@ -199,7 +213,6 @@
         app:srcCompat="@mipmap/baseline_arrow_forward_ios_black_24"/>
 
     <ImageButton
-        android:onClick="ViewADBt1"
         android:id="@+id/imageButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -213,7 +226,6 @@
         app:srcCompat="@drawable/feliz"/>
 
     <ImageButton
-        android:onClick="ViewADBt2"
         android:id="@+id/imageButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -224,7 +236,6 @@
         app:srcCompat="@drawable/small"/>
 
     <ImageButton
-        android:onClick="ViewADBt3"
         android:id="@+id/imageButton4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -239,7 +250,6 @@
         app:srcCompat="@drawable/mid"/>
 
     <ImageButton
-        android:onClick="ViewADBt4"
         android:id="@+id/imageButton5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
