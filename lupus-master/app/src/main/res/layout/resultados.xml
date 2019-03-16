@@ -8,8 +8,12 @@
     android:background="@color/anotherTextColor">
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/home_button2"
+=======
         android:onClick="ViewRHome"
+        android:id="@+id/home_button"
+>>>>>>> c1468a10c0744dd036b03fc16208131a3e9495d4
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -20,13 +24,23 @@
         android:text="Inicio"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
+<<<<<<< HEAD
         app:layout_constraintEnd_toStartOf="@+id/anadir_diario_button2"
+=======
+        app:layout_constraintEnd_toStartOf="@+id/anadir_diario_button"
+>>>>>>> c1468a10c0744dd036b03fc16208131a3e9495d4
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011"/>
+        app:layout_constraintVertical_bias="0.01"/>
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/anadir_diario_button2"
+=======
         android:onClick="ViewRAnalisis"
+        android:id="@+id/anadir_diario_button"
+>>>>>>> c1468a10c0744dd036b03fc16208131a3e9495d4
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -40,14 +54,21 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/resultados_button"
         app:layout_constraintHorizontal_bias="0.5"
+<<<<<<< HEAD
         app:layout_constraintStart_toEndOf="@+id/home_button2"
+=======
+        app:layout_constraintStart_toEndOf="@+id/home_button"
+>>>>>>> c1468a10c0744dd036b03fc16208131a3e9495d4
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.011"/>
 
     <Button
-
+<<<<<<< HEAD
+        android:id="@+id/resultados_button"
+=======
         android:onClick="Resultados_button"
         android:id="@+id/resultados_button2"
+>>>>>>> c1468a10c0744dd036b03fc16208131a3e9495d4
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -60,15 +81,25 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/ayuda_button2"
         app:layout_constraintHorizontal_bias="0.5"
+<<<<<<< HEAD
         app:layout_constraintStart_toEndOf="@+id/anadir_diario_button2"
+=======
+        app:layout_constraintStart_toEndOf="@+id/Resultados_button"
+>>>>>>> c1468a10c0744dd036b03fc16208131a3e9495d4
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.011"/>
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/ayuda_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+=======
         android:onClick="ayuda_button"
+        android:id="@+id/ayuda_button3"
+        android:layout_width="86dp"
+        android:layout_height="48dp"
+>>>>>>> c1468a10c0744dd036b03fc16208131a3e9495d4
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:background="@color/primaryDarkColor"
@@ -79,7 +110,11 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
+<<<<<<< HEAD
+        app:layout_constraintStart_toEndOf="@+id/resultados_button"
+=======
         app:layout_constraintStart_toEndOf="@+id/ayuda_button"
+>>>>>>> c1468a10c0744dd036b03fc16208131a3e9495d4
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.011"/>
 
@@ -218,14 +253,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
         android:text="Fecha de consulta:"
         android:textColor="@color/colorPrimary"
         android:textSize="21sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        tools:layout_editor_absoluteY="135dp"/>
 
     <EditText
         android:id="@+id/editText2"
@@ -248,18 +280,10 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
         android:text="Fecha"
         android:textColor="@color/primaryDarkColor"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/editText2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.474"
-        app:layout_constraintStart_toEndOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.944" />
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="82dp"/>
 
 </android.support.constraint.ConstraintLayout>
