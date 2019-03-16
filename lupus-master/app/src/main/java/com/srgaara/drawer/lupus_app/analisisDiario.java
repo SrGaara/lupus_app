@@ -33,19 +33,7 @@ public class analisisDiario extends Activity
         Intent myIntent = new Intent(view.getContext(), resultados.class);
         startActivityForResult(myIntent, 0);
     }
-    public void ViewADBt1(View view)
-    {
-        Toast.makeText(getApplicationContext(), "function not yet available", Toast.LENGTH_SHORT).show();
-    }
-    public void ViewADBt2(View view)
-    {
-        Toast.makeText(getApplicationContext(), "function not yet available", Toast.LENGTH_SHORT).show();;
-    }
-    public void ViewADBt3(View view)
-    {
-        Toast.makeText(getApplicationContext(), "function not yet available", Toast.LENGTH_SHORT).show();
-    }
-    public void ViewADBt4(View view)
+    public void ViewADToast(View view)
     {
         Toast.makeText(getApplicationContext(), "function not yet available", Toast.LENGTH_SHORT).show();
     }

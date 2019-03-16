@@ -7,7 +7,10 @@
     android:background="@color/anotherTextColor"
     tools:context=".MainActivity">
 
+    <!-- CAMBIEN EL PINCHE LAYOUT >:v -->
+
     <Button
+        android:onClick="ViewPHome"
         android:id="@+id/home_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,6 +29,7 @@
         app:layout_constraintVertical_bias="0.01" />
 
     <Button
+        android:onClick="ViewPAnalisis"
         android:id="@+id/anadir_diario_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -45,6 +49,7 @@
         app:layout_constraintVertical_bias="0.011" />
 
     <Button
+        android:onClick="ViewPResultados"
         android:id="@+id/Resultados_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -63,6 +68,7 @@
         app:layout_constraintVertical_bias="0.011" />
 
     <Button
+        android:onClick="ViewPAyuda"
         android:id="@+id/ayuda_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:background="@color/anotherTextColor">
 
+    <!-- CAMBIEN EL PINCHE LAYOUT >:v -->
+
     <TextView
         android:id="@+id/user_name_ayuda2"
         android:layout_width="155dp"
@@ -22,6 +24,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
+        android:onClick="ViewAHome"
         android:id="@+id/home_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -40,6 +43,7 @@
         app:layout_constraintVertical_bias="0.01" />
 
     <Button
+        android:onClick="ViewAAnalisis"
         android:id="@+id/anadir_diario_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -59,6 +63,7 @@
         app:layout_constraintVertical_bias="0.011" />
 
     <Button
+        android:onClick="ViewAResultados"
         android:id="@+id/resultados_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -77,6 +82,7 @@
         app:layout_constraintVertical_bias="0.011" />
 
     <Button
+        android:onClick="ViewAAyuda"
         android:id="@+id/ayuda_button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -144,6 +150,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <Button
+        android:onClick="ViewAToast"
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -159,6 +166,7 @@
         app:layout_constraintTop_toBottomOf="@+id/user_name_ayuda2" />
 
     <Button
+        android:onClick="ViewAToast"
         android:id="@+id/button5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -172,6 +180,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
+        android:onClick="ViewAToast"
         android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -185,6 +194,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
+        android:onClick="ViewAToast"
         android:id="@+id/button7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -198,6 +208,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
+        android:onClick="ViewAToast"
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
