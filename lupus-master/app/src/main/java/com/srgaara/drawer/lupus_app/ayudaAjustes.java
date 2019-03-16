@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class ayudaAjustes extends Activity
 {
@@ -31,5 +32,9 @@ public class ayudaAjustes extends Activity
     {
         Intent myIntent = new Intent(view.getContext(), resultados.class);
         startActivityForResult(myIntent, 0);
+    }
+    public void ViewAToast(View view)
+    {
+        Toast.makeText(getApplicationContext(), "function not yet available", Toast.LENGTH_SHORT).show();
     }
 }
