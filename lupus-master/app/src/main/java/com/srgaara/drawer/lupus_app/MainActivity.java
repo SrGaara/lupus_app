@@ -32,4 +32,10 @@ public class MainActivity extends Activity {
         Intent myIntent = new Intent(view.getContext(), resultados.class);
         startActivityForResult(myIntent, 0);
     }
+    public void ViewPLogin(View view)
+    {
+        Intent myIntent = new Intent(view.getContext(), login.class);
+        startActivityForResult(myIntent, 0);
+    }
+
 }

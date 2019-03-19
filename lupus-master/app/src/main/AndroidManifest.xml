@@ -19,6 +19,8 @@
         <activity android:name=".analisisDiario"></activity>
         <activity android:name=".resultados"></activity>
         <activity android:name=".ayudaAjustes"></activity>
+        <activity android:name=".login"></activity>
+        <activity android:name=".ayuda_politicas_y_privacidad"></activity>
     </application>
 
 </manifest>

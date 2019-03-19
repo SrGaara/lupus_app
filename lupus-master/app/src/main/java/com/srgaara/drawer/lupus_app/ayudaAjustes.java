@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.webkit.WebView;
 import android.widget.Toast;
 
 public class ayudaAjustes extends Activity
@@ -36,7 +35,7 @@ public class ayudaAjustes extends Activity
     }
     public void ViewAayuda_politicas_y_privacidad(View view)
     {
-        Intent myIntent = new Intent(view.getContext(), ayuda_opciones_de_seguimiento.class);
+        Intent myIntent = new Intent(view.getContext(), ayuda_politicas_y_privacidad.class);
         startActivityForResult(myIntent, 0);
     }
     public void ViewAToast(View view)
