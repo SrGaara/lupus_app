@@ -10,99 +10,88 @@
     <!-- CAMBIEN EL PINCHE LAYOUT >:v -->
 
     <Button
-        android:onClick="ViewPHome"
         android:id="@+id/home_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
         android:background="@color/primaryLightColor"
-        android:paddingLeft="15dp"
-        android:paddingRight="5dp"
+        android:onClick="ViewPHome"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
         android:text="Inicio"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/anadir_diario_button2"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01" />
+        app:layout_constraintVertical_bias="0.013"/>
 
     <Button
-        android:onClick="ViewPAnalisis"
         android:id="@+id/anadir_diario_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="115dp"
+        android:layout_height="40dp"
         android:background="@color/primaryDarkColor"
+        android:onClick="ViewPAnalisis"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
         android:text="Análisis diario"
         android:textAlignment="center"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/resultados_button"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/home_button2"
+        app:layout_constraintStart_toEndOf="@+id/home_button"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011" />
+        app:layout_constraintVertical_bias="0.013"/>
 
     <Button
-        android:onClick="ViewPResultados"
         android:id="@+id/Resultados_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
         android:background="@color/primaryDarkColor"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
+        android:onClick="ViewPResultados"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
         android:text="Resultados"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/ayuda_button"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/anadir_diario_button"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011" />
+        app:layout_constraintVertical_bias="0.013"/>
 
     <Button
-        android:onClick="ViewPAyuda"
         android:id="@+id/ayuda_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="84dp"
+        android:layout_height="40dp"
         android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
         android:background="@color/primaryDarkColor"
-        android:paddingLeft="5dp"
-        android:paddingRight="15dp"
+        android:onClick="ViewPAyuda"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
         android:text="Ayuda"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/resultados_button"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011" />
+        app:layout_constraintVertical_bias="0.001"/>
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="126dp"
         android:layout_height="42dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="13dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="Bienvenida"
         android:textColor="@color/colorPrimary"
-        android:textSize="24dp"
+        android:textSize="21dp"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.333" />
+        app:layout_constraintTop_toBottomOf="@+id/anadir_diario_button"
+        app:layout_constraintVertical_bias="1.0"/>
 
     <TextView
         android:id="@+id/textView4"
@@ -114,11 +103,29 @@
         android:layout_marginBottom="8dp"
         android:text="Tu calendario es el siguiente:"
         android:textColor="@color/colorPrimary"
-        android:textSize="24dp"
+        android:textSize="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163"/>
+
+    <ScrollView
+        android:layout_width="398dp"
+        android:layout_height="342dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.152" />
+        app:layout_constraintTop_toBottomOf="@+id/textView4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
