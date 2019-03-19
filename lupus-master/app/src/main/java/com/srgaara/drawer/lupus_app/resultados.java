@@ -18,7 +18,7 @@ public class resultados extends Activity
         Intent myIntent = new Intent(view.getContext(), MainActivity.class);
         startActivityForResult(myIntent, 0);
     }
-    public void ViewRAyuda(View view)
+    public void ViewADAyuda(View view)
     {
         Intent myIntent = new Intent(view.getContext(), ayudaAjustes.class);
         startActivityForResult(myIntent, 0);
