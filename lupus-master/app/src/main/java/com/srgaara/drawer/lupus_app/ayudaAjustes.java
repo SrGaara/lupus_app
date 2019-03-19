@@ -36,12 +36,8 @@ public class ayudaAjustes extends Activity
     }
     public void ViewAayuda_politicas_y_privacidad(View view)
     {
-        Intent myIntent = new Intent(view.getContext(), resultados.class);
+        Intent myIntent = new Intent(view.getContext(), ayuda_opciones_de_seguimiento.class);
         startActivityForResult(myIntent, 0);
-        WebView algo = (WebView) findViewById(R.id.webview);
-        algo.getSettings().setJavaScriptEnabled(true);
-        algo.getSettings().setBuiltInZoomControls(true);
-        algo.loadUrl("https://rentealo.com/aviso-de-privacidad");
     }
     public void ViewAToast(View view)
     {
