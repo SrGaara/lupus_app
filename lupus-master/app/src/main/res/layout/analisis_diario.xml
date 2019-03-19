@@ -10,54 +10,49 @@
     <!-- CAMBIEN EL PINCHE LAYOUT >:v -->
 
     <Button
-        android:onClick="ViewADHome"
         android:id="@+id/home_button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="65dp"
+        android:layout_height="40dp"
         android:background="@color/primaryDarkColor"
+        android:onClick="ViewADHome"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
         android:text="Inicio"
-        android:textSize="16sp"
+        android:textSize="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/anadir_diario_button2"
         app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01"/>
+        app:layout_constraintVertical_bias="0.01" />
 
     <Button
-        android:onClick="ViewADAnalisis"
         android:id="@+id/anadir_diario_button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="115dp"
+        android:layout_height="40dp"
         android:background="@color/primaryLightColor"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
+        android:onClick="ViewADAnalisis"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
         android:text="Análisis diario"
         android:textAlignment="center"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/resultados_button"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/home_button2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011"/>
+        app:layout_constraintVertical_bias="0.011" />
 
     <Button
-        android:onClick="ViewADResultados"
         android:id="@+id/resultados_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
         android:background="@color/primaryDarkColor"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
+        android:onClick="ViewADResultados"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
         android:text="Resultados"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -65,26 +60,25 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/anadir_diario_button2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011"/>
+        app:layout_constraintVertical_bias="0.011" />
 
     <Button
-        android:onClick="ViewADAyuda"
         android:id="@+id/ayuda_button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="84dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="8dp"
         android:background="@color/primaryDarkColor"
+        android:onClick="ViewADAyuda"
         android:paddingLeft="8dp"
         android:paddingRight="8dp"
         android:text="Ayuda"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/resultados_button"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011"/>
+        app:layout_constraintVertical_bias="0.013" />
 
     <TextView
         android:id="@+id/como_te_sientes_text"
