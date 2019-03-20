@@ -13,7 +13,7 @@
         android:layout_width="155dp"
         android:layout_height="26dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="72dp"
         android:text="Correo electrónico"
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
@@ -114,7 +114,7 @@
         android:layout_width="155dp"
         android:layout_height="26dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="40dp"
         android:text="Nombre"
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
@@ -170,29 +170,28 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="210dp"
-        android:layout_marginBottom="57dp"
         android:background="@color/primaryDarkColor"
         android:onClick="ViewAToast"
         android:text="Ajustes"
-        app:layout_constraintBottom_toTopOf="@+id/button8"
         app:layout_constraintEnd_toEndOf="@+id/button6"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/button6"
-        app:layout_constraintTop_toBottomOf="@+id/button6"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="172dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
         android:background="@color/primaryDarkColor"
         android:onClick="ViewAayuda_politicas_y_privacidad"
         android:text="Políticas y Privacidad"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/button7"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button7" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
 
     <ImageView
         android:id="@+id/imageView2"
