@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class analisisDiario extends Activity
@@ -12,6 +13,8 @@ public class analisisDiario extends Activity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.analisis_diario);
+
+        ImageView iconoPrueba = findViewById(R.id.imageView17);
     }
     public void ViewADHome(View view)
     {
